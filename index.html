@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container-header">
+            <div class="container-title">
+                <h1>Katik</h1>
+                Kalkulator Matematik
+            </div>
+        </div>
+        <div class="container-subheader" style="border-color: white;">
+            <h2>Welcome to Katik</h2>
+            <div class="text text-center">Hai Sobat, Selamat datang di Katik :]</div>
+            <div class="text text-center">Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling bangun datar</div>
+            <div class="container"></div>
+            <div class="container-content">
+                <div class="container-header">
+                    <h3>Luas Persegi</h3>
+                    <div class="container-subheader">
+                        <img src="persegi.png" alt="">
+                        <div class="text text-left">Rumus Luas Persegi yaitu:</div>
+                        <div class="text text-left">Dimana:</div>
+                        <div class="text text-left">L: Luas</div>
+                        <div class="text text-left">S: Sisi</div>
+                        <h3>Hitung Luas Persegi</h3>
+                        <input type="number" class="input" name="luas" id="luas" placeholder="Nilai Sisi">
+                        <div class="container">
+                            <p id="outputLuas1"></p>
+                            <p id="outputLuas2"></p>
+                            <p id="outputLuas3"></p>
+                            <button class="btn btn-small" id="countButtonLuas" onclick="countButtonLuas()">Hitung</button>
+                            <button class="btn btn-small" id="resetButtonLuas" onclick="resetButtonLuas()">Reset</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-header">
+                    <h3>Keliling Persegi</h3>
+                    <div class="container-subheader">
+                        <img src="persegi.png" alt="">
+                        <div class="text text-left">Rumus Keliling Persegi yaitu:</div>
+                        <div class="text text-left">Dimana:</div>
+                        <div class="text text-left">K: Keliling</div>
+                        <div class="text text-left">S: Sisi</div>
+                        <h3>Hitung Luas Persegi</h3>
+                        <input type="number" class="input" name="keliling" id="keliling" placeholder="Nilai Sisi">
+                        <div class="container">
+                            <p id="outputKeliling1"></p>
+                            <p id="outputKeliling2"></p>
+                            <p id="outputKeliling3"></p>
+                            <button class="btn btn-small" id="countButtonKeliling" onclick="countButtonKeliling()">Hitung</button>
+                            <button class="btn btn-small" id="resetButtonKeliling" onclick="resetButtonKeliling()">Reset</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>

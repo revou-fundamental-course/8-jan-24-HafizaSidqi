@@ -1,0 +1,86 @@
+.container {
+    width: 100%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding: 3px;
+}
+
+.container-header {
+    background: cornflowerblue;
+    color: white;
+    padding: 1px;
+    width: 100%;
+}
+
+.container-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: baseline;
+}
+
+.container-subheader {
+    background: white;
+    color: black;
+    text-align: center;
+    border-color: cornflowerblue;
+    padding: 5px;
+}
+
+.container-content {
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.btn {
+    padding: 10px;
+    transition-duration: 0.2s;
+    border-radius: 8px;
+}
+
+.btn-large {
+    background: white;
+    border-color: cornflowerblue;
+    width: 95%;
+}
+
+.btn-small{
+    width: 20%;
+}
+
+.btn-large:hover {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.btn-small:hover {
+    background-color: orange;
+}
+
+.btn:disabled{
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+.text {
+    color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.text-center {
+    justify-content: center;
+}
+
+.text-left {
+    justify-content: start;
+    padding-left: 5px;
+}
+
+.input {
+    width: 85%;
+    padding: 3px;
+    border-radius: 3px;
+    border-color: gainsboro;
+}
